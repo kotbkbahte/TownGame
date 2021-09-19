@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Town" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Town" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lopengl32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Town" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Camera/Camera.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Camera/Camera.h" />
+		<Unit filename="src/Core/Core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Core/Core.h" />
+		<Unit filename="src/Core/Types.h" />
+		<Unit filename="src/Graphics/Framebuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Graphics/Framebuffer.h" />
+		<Unit filename="src/Graphics/Graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Graphics/Graphics.h" />
+		<Unit filename="src/Graphics/TextureLoader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Graphics/TextureLoader.h" />
+		<Unit filename="src/Input/Input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Input/Input.h" />
+		<Unit filename="src/Input/Keyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Input/Keyboard.h" />
+		<Unit filename="src/Input/Mouse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Input/Mouse.h" />
+		<Unit filename="src/Math/Matrix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Math/Matrix.h" />
+		<Unit filename="src/Math/Point.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Math/Point.h" />
+		<Unit filename="src/Math/Scalar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Math/Scalar.h" />
+		<Unit filename="src/Math/Vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Math/Vector.h" />
+		<Unit filename="src/Object/Grid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Object/Grid.h" />
+		<Unit filename="src/Object/Map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Object/Map.h" />
+		<Unit filename="src/Object/MapLoader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Object/MapLoader.h" />
+		<Unit filename="src/Object/Mesh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Object/Mesh.h" />
+		<Unit filename="src/Object/Model.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Object/Model.h" />
+		<Unit filename="src/Object/ObjLoader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Object/ObjLoader.h" />
+		<Unit filename="src/Object/Object.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Object/Object.h" />
+		<Unit filename="src/Object/Text.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Object/Text.h" />
+		<Unit filename="src/SideSource/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SideSource/stb_image.h" />
+		<Unit filename="src/Timer/Timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Timer/Timer.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,219 @@
+# depslib dependency file v1.0
+1628077192 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\main.c
+	<stdio.h>
+	<stdlib.h>
+	"src/Core/Core.h"
+	"src/Graphics/Graphics.h"
+	"src/Input/Input.h"
+	"src/Timer/Timer.h"
+
+1628189821 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\core\core.h
+	"Types.h"
+	"../Object/OBJLoader.h"
+
+1628201498 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\graphics\graphics.h
+	"../Core/Core.h"
+	"../Camera/Camera.h"
+	"TextureLoader.h"
+
+1628088254 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\input\input.h
+	"../Graphics/Graphics.h"
+	"../Math/Matrix.h"
+	"../Camera/Camera.h"
+	"../Object/Grid.h"
+	"../Object/Object.h"
+	"../Object/Map.h"
+	"Keyboard.h"
+	"Mouse.h"
+
+1628266426 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\core\core.c
+	"../Graphics/Graphics.h"
+	"../Input/Input.h"
+	"../Object/Object.h"
+	"../Object/Grid.h"
+	"../Camera/Camera.h"
+	"../Object/Mesh.h"
+	"../Object/Model.h"
+	"../Math/Vector.h"
+
+1628342743 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\graphics\graphics.c
+	"Graphics.h"
+	"../Math/Matrix.h"
+	"../Object/Mesh.h"
+	"../Object/Model.h"
+	"../Object/Text.h"
+	"../Object/Grid.h"
+
+1627549723 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\math\matrix.h
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	"Vector.h"
+
+1628340653 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\input\input.c
+	"Input.h"
+	"../Math/Matrix.h"
+
+1627910710 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\math\matrix.c
+	"Matrix.h"
+
+1614064530 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\sidesource\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1628280172 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\core\types.h
+	<SDL.h>
+	<glad/glad.h>
+	<stdio.h>
+	"../Math/Point.h"
+	"../Math/Vector.h"
+
+1628163619 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\input\keyboard.c
+	"Keyboard.h"
+
+1628163639 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\input\keyboard.h
+	"../Core/Types.h"
+	"../Graphics/Graphics.h"
+	"../Math/Matrix.h"
+	"../Camera/Camera.h"
+	"../Object/Grid.h"
+	"../Object/Object.h"
+	"../Object/Map.h"
+
+1628201478 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\input\mouse.h
+	"../Core/Types.h"
+	"../Object/Map.h"
+	"../Graphics/Graphics.h"
+
+1628201491 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\input\mouse.c
+	"Mouse.h"
+
+1628188886 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\math\point.h
+	<math.h>
+
+1626613587 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\math\point.c
+	"Point.h"
+
+1626858078 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\math\scalar.c
+
+1627982435 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\math\vector.c
+	"Vector.h"
+
+1627982395 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\math\vector.h
+	<math.h>
+
+1628278535 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\object.c
+	"Object.h"
+
+1628278766 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\object.h
+	"../Core/Types.h"
+	"../Math/Matrix.h"
+
+1628279988 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\grid.h
+	"../Core/Types.h"
+	"../Math/Matrix.h"
+
+1628279980 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\grid.c
+	"Grid.h"
+
+1626618977 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\timer\timer.c
+	"Timer.h"
+
+1626618972 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\timer\timer.h
+	"../Core/Core.h"
+
+1628340875 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\camera\camera.c
+	"Camera.h"
+	"../Input/Keyboard.h"
+
+1627939088 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\camera\camera.h
+	"../Core/Types.h"
+	"../Math/Matrix.h"
+
+1627390769 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\objloader.h
+	<stdio.h>
+	"../Core/Types.h"
+
+1628278638 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\model.c
+	"Model.h"
+
+1627548789 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\objloader.c
+	"ObjLoader.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1628286609 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\mesh.c
+	"Mesh.h"
+
+1628280061 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\mesh.h
+	"../Core/Types.h"
+	"ObjLoader.h"
+	"../Math/Matrix.h"
+
+1628279213 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\graphics\textureloader.c
+	"TextureLoader.h"
+	"../SideSource/stb_image.h"
+
+1628188698 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\graphics\textureloader.h
+	"../Core/Types.h"
+
+1610361083 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\sidesource\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1628278736 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\model.h
+	"../Core/Types.h"
+	"../Math/Matrix.h"
+
+1627650271 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\maploader.c
+	"MapLoader.h"
+
+1628027892 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\maploader.h
+	"../Core/Types.h"
+
+1628164407 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\map.c
+	"Map.h"
+
+1628164421 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\map.h
+	"../Core/Types.h"
+	<math.h>
+
+1628278609 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\text.c
+	"Text.h"
+
+1628265923 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\object\text.h
+	"../Core/Types.h"
+	"../Math/Matrix.h"
+
+1628266850 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\sidesource\gltext.h
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<assert.h>
+	<stdio.h>
+
+1628279887 source:c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\graphics\framebuffer.c
+	"Framebuffer.h"
+
+1628279837 c:\users\nikitapc\desktop\cprogramming\codeblocks\cgames\town\src\graphics\framebuffer.h
+	"../Core/Types.h"
+
